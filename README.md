@@ -34,5 +34,19 @@ The network uses the 10.0.0.0/24 address range and the Kali VM uses the IP addre
 
 Additional virtual machines can be connected to the same network in the future.
 
+## Lab Configuration:
+Component	Configuration
+Host OS	Windows
+Hypervisor	VirtualBox 7.2
+Security OS	Kali Linux
+Kali VM RAM	2048 MB
+Virtual Network	NAT Network
+Network Name	NatNetwork
+Network Address	10.0.0.0/24
+Kali IP Address	10.0.0.2/24
+Default Gateway	10.0.0.1
+Network Interface	eth0
+<img width="235" height="352" alt="image" src="https://github.com/user-attachments/assets/ce692450-a83c-4ba0-a870-ada0ac2cd7a3" />
+
 
 
