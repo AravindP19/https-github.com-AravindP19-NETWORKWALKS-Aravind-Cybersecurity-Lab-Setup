@@ -99,8 +99,8 @@ Subnet Mask: 255.255.255.0
 Default Gateway: 10.0.0.1
 
 DNS: 10.0.0.1
-### 2. Import Kali Linux: 
-![Import Kali Linux: Page](images/ss3.png)
 
+### 3. Import Kali Linux: 
+![Import Kali Linux: Page](images/ss3.png)
 
 
