@@ -100,7 +100,7 @@ Default Gateway: 10.0.0.1
 
 DNS: 10.0.0.1
 
-## 3. Import Kali Linux: 
+## 4. Import Kali Linux: 
 ![Import Kali Linux: Page](images/ss3.png)
 
 Step 6. Create a Clean VM Snapshot
@@ -110,5 +110,20 @@ After completing the initial configuration of my Kali Linux virtual machine, I c
 This snapshot will serve as a recovery point for my virtual machine. If future experiments affect my configuration, I can restore the VM to its previous state with this.
 
 Status: Completed — Snapshot creation and verification
+
+# Lab Configuration Verification:
+
+I used network commands to check my Kali Linux configuration and test internet connectivity. The following table summarizes my results and the additional checks pending:
+
+|            Test            |            Command          |       Result / Status     |   |   |
+|:-----------------------------:|:-----------------------------:|:---------------------------:|---|---|
+| Check IP address           | ip a                          | Verified: 10.0.0.2/24       |   |   |
+| Check routing table        | ip route                      | Verified: gateway 10.0.0.1  |   |   |
+| Test Internet connectivity | ping google.com               | Successful replies received |   |   |
+| Test gateway connectivity  | ping -c 4 10.0.0.1            | Not yet verified separately |   |   |
+| Test DNS resolution        | nslookup networkwalks.com     | Not yet verified separately |   |   |
+| Verify Nmap installation   | nmap --version                | Not yet verified            |   |   |
+| Verify snapshot            | Restore snapshot and run ip a |    Completed                |   |   |
+
 
 
