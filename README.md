@@ -48,5 +48,26 @@ Default Gateway	10.0.0.1
 Network Interface	eth0
 <img width="235" height="352" alt="image" src="https://github.com/user-attachments/assets/ce692450-a83c-4ba0-a870-ada0ac2cd7a3" />
 
+## Setup Procedure:
+Step 1. Install 7-Zip
+I installed 7-Zip to extract the Kali Linux virtual-machine archive.
+
+Step 2. Install VirtualBox
+I used VirtualBox as the hypervisor to create and manage my Kali Linux virtual machine.
+
+Step 3. Create the NAT Network
+I created a dedicated NAT Network in VirtualBox with the following configuration:
+
+Network Name: NatNetwork
+
+IPv4 Prefix: 10.0.0.0/24
+
+DHCP: Enabled
+
+IPv6: Disabled
+
+This network configuration allows connected virtual machines to communicate with each other while providing outbound network connectivity.
+
+
 
 
