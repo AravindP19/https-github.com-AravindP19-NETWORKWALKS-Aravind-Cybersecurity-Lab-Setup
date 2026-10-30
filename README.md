@@ -67,7 +67,13 @@ DHCP: Enabled
 IPv6: Disabled
 
 This network configuration allows connected virtual machines to communicate with each other while providing outbound network connectivity.
+## Application Screenshots
 
+### 1. Architecture: Page
+![Architecture: Page](images/ss1.png)
+
+### 2. Setup Procedure: Page
+![Setup Procedure: Page](images/ss2.png)
 
 
 
