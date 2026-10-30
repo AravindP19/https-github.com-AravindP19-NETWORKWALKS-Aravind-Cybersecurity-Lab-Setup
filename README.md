@@ -100,7 +100,7 @@ Default Gateway: 10.0.0.1
 
 DNS: 10.0.0.1
 
-### 3. Import Kali Linux Page: 
+## 3. Import Kali Linux: 
 ![Import Kali Linux: Page](images/ss3.png)
 
 
