@@ -84,7 +84,7 @@ Attached to: NAT Network
 
 Network: NatNetwork
 
-The VM was allocated 2048 MB of RAM. I also configured a shared folder to allow file transfer from Windows and Kali Linux.
+The VM was allocated 2048 MB of RAM. 
 
 Step 5. Configure the Kali Linux Network
 
@@ -102,5 +102,13 @@ DNS: 10.0.0.1
 
 ## 3. Import Kali Linux: 
 ![Import Kali Linux: Page](images/ss3.png)
+
+Step 6. Create a Clean VM Snapshot
+
+After completing the initial configuration of my Kali Linux virtual machine, I created a VirtualBox snapshot to preserve the initial state of my lab.
+
+This snapshot will serve as a recovery point for my virtual machine. If future experiments affect my configuration, I can restore the VM to its previous state with this.
+
+Status: Completed — Snapshot creation and verification
 
 
