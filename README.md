@@ -125,5 +125,29 @@ I used network commands to check my Kali Linux configuration and test internet c
 | Verify Nmap installation   | nmap --version                | Not yet verified            |   |   |
 | Verify snapshot            | Restore snapshot and run ip a |    Completed                |   |   |
 
+# Problems I faced and how I solved them:
+
+Changing IPv4 settings can sometimes affect Internet connectivity so I set my DNS to IP 10.0.0.1 when I had issues with local DNS IP 8.8.8.8.
+
+To check the network problems I checked the interface using ip a command,inspected the routing table with ip route command and tested connectivity using ping command.
+
+# Learnings from this Lab:
+
+By this project, I got a hands-on exposure to setting up an environment for practicing cybersecurity.
+1. NAT vs. NAT Network
+I learned that NAT and NAT Network serve different purposes. A NAT Network allows virtual machines connected to the same virtual network to communicate with one another while providing external network connectivity.
+
+2. Virtual Machine Networking
+I learned how VirtualBox network adapters connect my virtual machine to a virtual network and how the selected network mode affects communication and Internet access.
+
+3. IP Addressing and Network Verification
+I practiced checking my network interface, identifying my assigned IPv4 address, inspecting the routing table, and testing Internet connectivity from Kali Linux. I also learned that IP connectivity and DNS resolution are separate aspects of network troubleshooting.
+
+5. VM Snapshots
+I learned that snapshots provide recovery points for virtual machines. Creating a clean snapshot before experimenting with unfamiliar configurations can help me restore a known state if something goes wrong.
+
+6. Technical Documentation
+I learned the importance of documenting commands, configuration details, verification results, screenshots, and troubleshooting steps. Clear documentation makes my work easier to review and reproduce.
+
 
 
