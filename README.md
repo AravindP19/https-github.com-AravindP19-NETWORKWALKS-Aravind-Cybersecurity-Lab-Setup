@@ -1,7 +1,7 @@
 # https-github.com-AravindP19-NETWORKWALKS-Aravind-Cybersecurity-Lab-Setup
 Author: Aravind P GitHub: @AravindP19 Program: NETWORKWALKS Cybersecurity Internship,Week 1(WK1-PM1)
 # Project Overview :
-This project is to setup a cybersecurity lab environment using VirtualBox and Kali Linux.
+The purpose of this project is to setup a cybersecurity lab environment using VirtualBox environment and Kali Linux OS.
 
 The goal is to create a controlled environment to learn cybersecurity concepts,testing with security tools and as a setup for future configurations.
 
@@ -149,5 +149,30 @@ I learned that snapshots provide recovery points for virtual machines. Creating 
 6. Technical Documentation
 I learned the importance of documenting commands, configuration details, verification results, screenshots, and troubleshooting steps. Clear documentation makes my work easier to review and reproduce.
 
+# Security Aspects and Ethical Usage:
 
+I created this lab for educational purposes and for authorized cybersecurity practice. I will use it to develop my technical skills in a controlled environment and perform testing only on systems and networks for which I have permission.
+
+# Tools and Resources:
+7-Zip: https://7-zip.org/download.html
+
+VirtualBox: https://virtualbox.org/wiki/Downloads
+
+Kali Linux: https://kali.org/get-kali
+
+# Author:
+Aravind P
+
+Aspiring Cybersecurity Professional
+
+LinkedIn: linkedin.com/in/aravind-p-9614a51aa
+
+# Project Details:
+Program Name: Cybersecurity at NetworkWalks
+
+Week: 01
+
+Project: Cybersecurity & Pentesting Lab Setup
+
+Repository: GitHub
 
