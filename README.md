@@ -69,11 +69,38 @@ IPv6: Disabled
 This network configuration allows connected virtual machines to communicate with each other while providing outbound network connectivity.
 ## Application Screenshots
 
-### 1. Architecture: Page
+### 1. Architecture: 
 ![Architecture: Page](images/ss1.png)
 
-### 2. Setup Procedure: Page
+### 2. Setup Procedure: 
 ![Setup Procedure: Page](images/ss2.png)
+
+Step 4. Import Kali Linux
+I downloaded Kali Linux from the official website and imported the virtual machine into VirtualBox.
+
+The network adapter is configured as:
+
+Attached to: NAT Network
+
+Network: NatNetwork
+
+The VM was allocated 2048 MB of RAM. I also configured a shared folder to allow file transfer from Windows and Kali Linux.
+
+Step 5. Configure the Kali Linux Network
+
+I checked the Kali Linux network interface and verified its IP address.
+
+The resulting configuration is:
+
+IP Address: 10.0.0.2/24
+
+Subnet Mask: 255.255.255.0
+
+Default Gateway: 10.0.0.1
+
+DNS: 10.0.0.1
+### 2. Import Kali Linux: 
+![Import Kali Linux: Page](images/ss3.png)
 
 
 
